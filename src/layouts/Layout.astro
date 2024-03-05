@@ -1,19 +1,22 @@
 ---
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import { getLangFromUrl } from "../i18n/utils";
+
 import '../styles/global.css';
 interface Props {
-	title: string;
+  description: string
+  title: string
 }
-
-const { title } = Astro.props;
+const { description, title } = Astro.props
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <!doctype html>
-<html lang="en" data-theme="mytheme">
+<html lang={lang} data-theme="mytheme">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +26,7 @@ const { title } = Astro.props;
 <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 
 		
-<meta name="generator" content={Astro.generator} />
+
 		<title>{title}</title>
 	</head>
 	<body>

@@ -1,5 +1,8 @@
 ---
 import Button from "./Button.astro"
+import { getI18N } from '../i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
 ---
 
 
@@ -14,9 +17,9 @@ import Button from "./Button.astro"
       </div>
       <div class="text-center mx-10 text-secondary">
         
-        <h2 class="text-2xl font-bold mb-4 font-aclonica">Título Aquí</h2>
+        <h2 class="text-2xl font-bold mb-4 font-aclonica">{i18n.CUSTOMERS.TITLE}</h2>
         
-        <p class="mb-4 font-nunito-sans">Texto descriptivo aquí. Este es un párrafo que describe el contenido de la sección o proporciona información adicional.</p>
+        <p class="mb-4 font-nunito-sans">{i18n.CUSTOMERS.TEXT}</p>
         
         <Button text="More About Us" />
       </div>
@@ -30,12 +33,12 @@ import Button from "./Button.astro"
       <div class="flex gap-2 text-center font-aclonica">
         <div class="w-1/2 text-center">
           <h3 class="text-xl font-semibold mb-4 text-primary">12+</h3>
-          <h5 class="text-secondary">Years Experience</h5>
+          <h5 class="text-secondary">{i18n.CUSTOMERS.EXPERIENCE}</h5>
         </div>
       
         <div class="w-1/2 text-center">
           <h3 class="text-xl font-semibold mb-4 text-primary">99%</h3>
-          <h5 class="text-secondary">Customer Satisfaction</h5>
+          <h5 class="text-secondary">{i18n.CUSTOMERS.SATISFACTION}</h5>
         </div>
       </div>
     </div>

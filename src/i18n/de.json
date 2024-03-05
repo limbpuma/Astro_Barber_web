@@ -1,0 +1,52 @@
+{
+  "SEO_TITLE": "Gentlemen's | Barber Shop",
+  "SEO_DESCRIPTION": "Gentlemen's, wo Tradition auf modernen Stil trifft. Erlebe die ultimative Barber-Erfahrung im Herzen Deutschlands.",
+  "NAVBAR": {
+    "HOME": "Startseite",
+    "SERVICES": "Dienstleistungen",
+    "CONTACT": "Kontakt",
+    "BOOK_SERVICE": "Jetzt buchen"
+  },
+  "HERO": {
+    "TITLE": "Willkommen bei Gentlemen's",
+    "TEXT": "Erlebe die ultimative Barber-Erfahrung im Herzen Deutschlands.",
+    "CTA_BUTTON_TEXT": "Mehr erfahren"
+  },
+  "CUSTOMERS": {
+    "TITLE": "Unsere Kunden",
+    "TEXT": "Geschichten der Verwandlung.",
+    "EXPERIENCE": "Jahre Erfahrung",
+    "SATISFACTION": "Kundenzufriedenheit" 
+  },
+  "SERVICES": {
+        "TITLE1": "Klassische Schnitte",
+        "TEXT1": "Erstklassige Services für den modernen Gentleman.",
+        "CTA_BUTTON_TEXT": "29.00 $",
+        "TITLE2": "Unsere Dienstleistungen",
+        "TEXT2": "Erstklassige Services für den modernen Gentleman.",
+        "LIST": ["Haarschnitte", "Klassische Rasur", "Bartpflege", "Haarbehandlungen", "Massagen", "Exklusive Produkte"]
+  },
+  "EXPERIENCE": {
+    "TITLE": "Classic Cuts",
+    "TEXT": "First-class services for the modern gentleman.",
+    "CTA_BUTTON_TEXT": "More Info"
+    },
+  "ABOUT": {
+    "TITLE": "Über uns",
+    "TEXT": "Fachleute leidenschaftlich für deinen Stil.",
+    "CARDS": [
+      { "NAME": "Hans", "DESCRIPTION": "Meister-Barbier" },
+      { "NAME": "Lukas", "DESCRIPTION": "Bartspezialist" },
+      { "NAME": "Max", "DESCRIPTION": "Stylist" },
+      { "NAME": "Felix", "DESCRIPTION": "Lehrling" }
+    ]
+  },
+  "FOOTER": {
+        "TITLE1": "Über Gentlemen's",
+        "TEXT1": "Gentlemen's, wo Tradition auf modernen Stil trifft.",
+        "TITLE2": "Schnelllinks",
+        "LINKS2": ["HOME", "SERVICES", "BOOKING", "CONTACT"],
+        "TITLE3": "Dienstleistungen",
+        "LINKS3": ["CUTS", "BEARD_CARE", "SHAVES", "TREATMENTS"]
+  }
+}

@@ -2,7 +2,7 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-	  extend: ["mytheme", "mythemeDark"],
+	  extend: ["mytheme"],
 	  
 	},
 	plugins: [
@@ -27,24 +27,7 @@ export default {
 			  "accent": "#151515", // Nuevo color
 			  "accent-focus": "#121212", // Focus para el nuevo color
 			  "accent-content": "#ffffff", // Texto sobre el nuevo color
-			},
-			mythemeDark: { // Tema personalizado #2 (versión oscura)
-			  "primary": "#D89400",
-			  "primary-focus": "#C68000",
-			  "primary-content": "#151515",
-	
-			  "secondary": "#151515",
-			  "secondary-focus": "#121212",
-			  "secondary-content": "#F6F6F6",
-	
-			  "neutral": "#F6F6F6",
-			  "neutral-focus": "#E6E6E6",
-			  "neutral-content": "#151515",
-	
-			  "accent": "#F6F6F6", // Modificación para tema oscuro
-			  "accent-focus": "#E6E6E6", // Focus para el color modificado
-			  "accent-content": "#151515", // Texto sobre el color modificado
-			},
+			}
 		},
 	  ],
 	},

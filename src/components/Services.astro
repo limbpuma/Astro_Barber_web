@@ -1,13 +1,17 @@
 ---
 import Button from '../components/Button.astro'
+import { getI18N } from '../i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
 ---
+
 <div class="w-full flex items-center justify-center bg-neutral py-24">
     <div class="grid md:grid-cols-3 gap-8 mx-4 w-full max-w-4xl">
         <div class="flex flex-col items-center justify-center text-center space-y-4">
             <img src="https://images.pexels.com/photos/3998419/pexels-photo-3998419.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Descripción de la imagen" class="rounded-lg shadow-md h-48 w-full ">
-            <h2 class="text-xl font-bold font-aclonica text-primary">Título Aquí</h2>
-            <p class="text-secondary">Texto descriptivo aquí. Este es un párrafo que describe el contenido de la sección o proporciona información adicional.</p>
-            <Button text="125.00 EUR"/>
+            <h2 class="text-xl font-bold font-aclonica text-primary">{i18n.SERVICES.TITLE1}</h2>
+            <p class="text-secondary">{i18n.SERVICES.TEXT1}</p>
+            <Button text={i18n.SERVICES.CTA_BUTTON_TEXT}/>
         </div>
 
         <div class="hidden md:block">
@@ -17,8 +21,8 @@ import Button from '../components/Button.astro'
         <div class="flex flex-col items-center justify-center text-center space-y-4">
             <h2 class="text-xl font-bold text-secondary">Título Aquí</h2>
             <p class="text-secondary">Texto descriptivo aquí. Este es un párrafo que describe el contenido de la sección o proporciona información adicional.</p>
-            <ul class="list-disc list-inside list-none text-primary">
-                <li>Item 1</li>
+            <ul class="list-disc list-inside list-none text-primary font-aclonica font-bold">
+                <li >Item 1</li>
                 <hr class="my-2">
                 <li>Item 2</li>
                 <hr class="my-2">

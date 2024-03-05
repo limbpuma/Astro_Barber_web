@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/Hero.astro';
+import Customers from '../../components/Customers.astro';
+import Services from '../../components/Services.astro';
+import Experience from '../../components/Experience.astro';
+import Team from '../../components/Team.astro';
+import About from '../../components/About.astro';
+import VideoSection from '../../components/VideoSection.astro';
+
+
+import { getI18N } from '../../i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
+---
+
+<Layout
+title={i18n.SEO_TITLE}
+description={i18n.SEO_DESCRIPTION}
+>
+	<main>
+		<Hero />
+		<Customers />
+		<Services />
+		<Experience />
+		<Team />
+		<About />
+		<VideoSection />
+	</main>
+</Layout>
+
+<style>
+	
+</style>

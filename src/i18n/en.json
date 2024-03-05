@@ -1,0 +1,52 @@
+{
+  "SEO_TITLE": "Gentlemen's | Barber Shop",
+  "SEO_DESCRIPTION": "Gentlemen's, where tradition meets modern style. Experience the ultimate barber experience in the heart of Germany.",
+  "NAVBAR": {
+    "HOME": "Home",
+    "SERVICES": "Services",
+    "CONTACT": "Contact",
+    "BOOK_SERVICE": "Book Now"
+  },
+  "HERO": {
+    "TITLE": "Welcome to Gentlemen's",
+    "TEXT": "Experience the ultimate barber experience in the heart of Germany.",
+    "CTA_BUTTON_TEXT": "Learn More"
+  },
+  "CUSTOMERS": {
+    "TITLE": "Our Customers",
+    "TEXT": "Stories of transformation.",
+    "EXPERIENCE": "Years of Experience",
+    "SATISFACTION": "Customer Satisfaction"
+  },
+  "SERVICES": {
+        "TITLE1": "Classic Cuts",
+        "TEXT1": "First-class services for the modern gentleman.",
+        "CTA_BUTTON_TEXT": "More Info",
+        "TITLE2": "29.00 $",
+        "TEXT2": "First-class services for the modern gentleman.",
+        "LIST": ["Haircuts", "Classic Shave", "Beard Care", "Hair Treatments", "Massages", "Exclusive Products"]
+  },
+  "EXPERIENCE": {
+    "TITLE": "Classic Cuts",
+    "TEXT": "First-class services for the modern gentleman.",
+    "CTA_BUTTON_TEXT": "More Info"
+    },
+  "ABOUT": {
+    "TITLE": "About Us",
+    "TEXT": "Professionals passionate about your style.",
+    "CARDS": [
+      { "NAME": "Hans", "DESCRIPTION": "Master Barber" },
+      { "NAME": "Lukas", "DESCRIPTION": "Beard Specialist" },
+      { "NAME": "Max", "DESCRIPTION": "Stylist" },
+      { "NAME": "Felix", "DESCRIPTION": "Apprentice" }
+    ]
+  },
+  "FOOTER": {
+        "TITLE1": "About Gentlemen's",
+        "TEXT1": "Gentlemen's, where tradition meets modern style.",
+        "TITLE2": "Quick Links",
+        "LINKS2": ["HOME", "SERVICES", "BOOKING", "CONTACT"],
+        "TITLE3": "Services",
+        "LINKS3": ["Haircuts", "Beard Care", "Shaves", "Treatments"]
+  }
+}

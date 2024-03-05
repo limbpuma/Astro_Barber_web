@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+    
     li, a {
         font-family: 'Aclonica', sans-serif;
+        text-decoration: none;
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Aclonica', sans-serif;
@@ -24,6 +26,11 @@
         object-fit: cover;
         overflow: hidden;
     }
+    .image-with-shadow {
+        filter: drop-shadow(0 4px 3px rgba(0,0,0,0.5)) 
+                drop-shadow(0 2px 2px rgba(0,0,0,0.4));
+    }
+    
 }
 /*
 color: theme('colors.primary');

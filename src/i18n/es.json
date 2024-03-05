@@ -1,0 +1,54 @@
+{
+  "SEO_TITLE": "Gentlemen's | Barbería",
+  "SEO_DESCRIPTION": "Gentlemen's, donde la tradición se encuentra con el estilo moderno. Experimenta la experiencia de barbería definitiva en el corazón de Alemania.",
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "SERVICES": "Servicios",
+    "CONTACT": "Contacto",
+    "BOOK_SERVICE": "Reservar Ahora"
+  },
+  "HERO": {
+    "TITLE": "Bienvenido a Gentlemen's",
+    "TEXT": "Experimenta la experiencia de barbería definitiva en el corazón de Alemania.",
+    "CTA_BUTTON_TEXT": "Saber Más"
+  },
+  "CUSTOMERS": {
+    "TITLE": "Nuestros Clientes",
+    "TEXT": "Historias de transformación.",
+    "EXPERIENCE": "Años de Experiencia",
+    "SATISFACTION": "Satisfacción del Cliente"
+  },
+  "SERVICES": {
+        "TITLE1": "Cortes Clásicos",
+        "TEXT1": "Servicios de primera clase para el caballero moderno.",
+        "CTA_BUTTON_TEXT": "29.00 $",
+   
+        "TITLE2": "Nuestros Servicios",
+        "TEXT2": "Servicios de primera clase para el caballero moderno.",
+        "LIST": ["Cortes de cabello", "Afeitado Clásico", "Cuidado de Barba", "Tratamientos Capilares", "Masajes", "Productos Exclusivos"]
+
+  },
+  "EXPERIENCE": {
+    "TITLE": "Classic Cuts",
+    "TEXT": "First-class services for the modern gentleman.",
+    "CTA_BUTTON_TEXT": "More Info"
+    },
+  "ABOUT": {
+    "TITLE": "Sobre Nosotros",
+    "TEXT": "Profesionales apasionados por tu estilo.",
+    "CARDS": [
+      { "NAME": "Hans", "DESCRIPTION": "Barbero Maestro" },
+      { "NAME": "Lukas", "DESCRIPTION": "Especialista en Barbas" },
+      { "NAME": "Max", "DESCRIPTION": "Estilista" },
+      { "NAME": "Felix", "DESCRIPTION": "Aprendiz" }
+    ]
+  },
+  "FOOTER": {
+        "TITLE1": "Sobre Gentlemen's",
+        "TEXT1": "Gentlemen's, donde la tradición se encuentra con el estilo moderno.",
+        "TITLE2": "Enlaces Rápidos",
+        "LINKS2": ["INICIO", "SERVICIOS", "RESERVA", "CONTACTO"],
+        "TITLE3": "Servicios",
+        "LINKS3": ["Cortes", "Cuidado de Barba", "Afeitados", "Tratamientos"]
+  }
+}
