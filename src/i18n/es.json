@@ -35,10 +35,10 @@
     "TITLE": "Conoce al Equipo",
     "TEXT": "Profesionales dedicados a tu estilo y confort.",
     "CARDS": [
-      { "NAME": "Hans", "DESCRIPTION": "Barbero Maestro", "IMAGE_URL": "/images/team1.jpg" },
-      { "NAME": "Lukas", "DESCRIPTION": "Especialista en Barbas", "IMAGE_URL": "/images/team2.jpeg" },
-      { "NAME": "Max", "DESCRIPTION": "Estilista", "IMAGE_URL": "/images/team3.jpeg" },
-      { "NAME": "Felix", "DESCRIPTION": "Aprendiz Avanzado", "IMAGE_URL": "/images/team4.jpeg" }
+      { "NAME": "Hans", "DESCRIPTION": "Barbero Maestro", "IMAGE_URL": "https://images.pexels.com/photos/331989/pexels-photo-331989.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Lukas", "DESCRIPTION": "Especialista en Barbas", "IMAGE_URL": "https://images.pexels.com/photos/3998430/pexels-photo-3998430.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Max", "DESCRIPTION": "Estilista", "IMAGE_URL": "https://images.pexels.com/photos/1836983/pexels-photo-1836983.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Felix", "DESCRIPTION": "Aprendiz Avanzado", "IMAGE_URL": "https://images.pexels.com/photos/2035227/pexels-photo-2035227.jpeg?auto=compress&cs=tinysrgb&w=400" }
     ]
   },
   "REVIEWS": {
@@ -46,8 +46,8 @@
     "SUBTITLE": "Testimonios reales",
     "CTA_BUTTON_TEXT": "Más información",
     "CARDS": [
-      { "NAME": "Hans", "DESCRIPTION": "Cliente Satisfecho", "IMAGE_URL": "/images/reviews1.jpeg", "TEXT": "La atención y los detalles en cada servicio hacen la diferencia. Siempre salgo satisfecho." },
-      { "NAME": "Lukas", "DESCRIPTION": "Habitual de Gentlemen's", "IMAGE_URL": "/images/reviews2.jpeg", "TEXT": "Los mejores en lo que hacen, no cambio Gentlemen's por nada. Excelente calidad y servicio." }
+      { "NAME": "Hans", "DESCRIPTION": "Cliente Satisfecho", "IMAGE_URL": "https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "La atención y los detalles en cada servicio hacen la diferencia. Siempre salgo satisfecho." },
+      { "NAME": "Lukas", "DESCRIPTION": "Habitual de Gentlemen's", "IMAGE_URL": "https://images.pexels.com/photos/7116213/pexels-photo-7116213.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "Los mejores en lo que hacen, no cambio Gentlemen's por nada. Excelente calidad y servicio." }
     ]
   },
   "VIDEO": {
