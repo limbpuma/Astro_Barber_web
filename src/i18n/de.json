@@ -35,10 +35,10 @@
     "TITLE": "Unser Team",
     "TEXT": "Profis, die sich deinem Stil und Komfort widmen.",
     "CARDS": [
-      { "NAME": "Hans", "DESCRIPTION": "Meister-Barbier", "IMAGE_URL": "https://images.pexels.com/photos/331989/pexels-photo-331989.jpeg?auto=compress&cs=tinysrgb&w=400" },
-      { "NAME": "Lukas", "DESCRIPTION": "Bartspezialist", "IMAGE_URL": "https://images.pexels.com/photos/3998430/pexels-photo-3998430.jpeg?auto=compress&cs=tinysrgb&w=400" },
-      { "NAME": "Max", "DESCRIPTION": "Stylist", "IMAGE_URL": "https://images.pexels.com/photos/1836983/pexels-photo-1836983.jpeg?auto=compress&cs=tinysrgb&w=400" },
-      { "NAME": "Felix", "DESCRIPTION": "Fortgeschrittener Lehrling", "IMAGE_URL": "https://images.pexels.com/photos/2035227/pexels-photo-2035227.jpeg?auto=compress&cs=tinysrgb&w=400" }
+      { "NAME": "Hans", "DESCRIPTION": "Meister-Barbier", "IMAGE_URL": "/images/team1.jpg" },
+      { "NAME": "Lukas", "DESCRIPTION": "Bartspezialist", "IMAGE_URL": "/images/team2.jpeg" },
+      { "NAME": "Max", "DESCRIPTION": "Stylist", "IMAGE_URL": "/images/team3.jpeg" },
+      { "NAME": "Felix", "DESCRIPTION": "Fortgeschrittener Lehrling", "IMAGE_URL": "/images/team4.jpeg" }
     ]
   },
   "REVIEWS": {
@@ -46,8 +46,8 @@
     "SUBTITLE": "Echte Testimonials",
     "CTA_BUTTON_TEXT": "Mehr Informationen",
     "CARDS": [
-      { "NAME": "Hans", "DESCRIPTION": "Zufriedener Kunde", "IMAGE_URL": "https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "Die Aufmerksamkeit und Details bei jedem Service machen den Unterschied. Ich gehe immer zufrieden." },
-      { "NAME": "Lukas", "DESCRIPTION": "Stammkunde bei Gentlemen's", "IMAGE_URL": "https://images.pexels.com/photos/7116213/pexels-photo-7116213.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "Die Besten in dem, was sie tun, ich würde Gentlemen's für nichts eintauschen. Exzellente Qualität und Service." }
+      { "NAME": "Hans", "DESCRIPTION": "Zufriedener Kunde", "IMAGE_URL": "/images/reviews1.jpeg", "TEXT": "Die Aufmerksamkeit und Details bei jedem Service machen den Unterschied. Ich gehe immer zufrieden." },
+      { "NAME": "Lukas", "DESCRIPTION": "Stammkunde bei Gentlemen's", "IMAGE_URL": "/images/reviews2.jpeg", "TEXT": "Die Besten in dem, was sie tun, ich würde Gentlemen's für nichts eintauschen. Exzellente Qualität und Service." }
     ]
   },
   "VIDEO": {
