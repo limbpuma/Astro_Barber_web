@@ -3,6 +3,7 @@ import Button from '../components/Button.astro'
 import { getI18N } from '../i18n';
 const { currentLocale} = Astro
 const i18n = getI18N({currentLocale});
+const servicesList = i18n.SERVICES.LIST;
 ---
 
 <div class="w-full flex items-center justify-center bg-neutral py-24">
@@ -19,20 +20,16 @@ const i18n = getI18N({currentLocale});
         </div>
 
         <div class="flex flex-col items-center justify-center text-center space-y-4">
-            <h2 class="text-xl font-bold text-secondary">Título Aquí</h2>
-            <p class="text-secondary">Texto descriptivo aquí. Este es un párrafo que describe el contenido de la sección o proporciona información adicional.</p>
-            <ul class="list-disc list-inside list-none text-primary font-aclonica font-bold">
-                <li >Item 1</li>
-                <hr class="my-2">
-                <li>Item 2</li>
-                <hr class="my-2">
-                <li>Item 3</li>
-                <hr class="my-2">
-                <li>Item 4</li>
-                <hr class="my-2">
-                <li>Item 5</li>
-                <hr class="my-2">
-                <li>Item 6</li>
+            <h2 class="text-xl font-bold text-secondary">{i18n.SERVICES.TITLE2}</h2>
+            <p class="text-secondary">{i18n.SERVICES.TEXT2}</p>
+            <ul class="list-disc list-inside text-primary font-aclonica font-bold">
+                {servicesList.map((serviceItem, index) => (
+                  <div>
+                    <li class="list-none">{serviceItem}</li>
+                    {/* Condición para no incluir <hr> después del último elemento */}
+                    {index < servicesList.length - 1 && <hr class="my-2"/>}
+                  </div>
+                ))}
             </ul>
         </div>
     </div>

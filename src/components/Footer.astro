@@ -1,12 +1,14 @@
 ---
-
+import { getI18N } from '../i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
 ---
 
 <footer class="footer bg-primary text-white p-10 text-center">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ">
       <div class="text-center mx-auto">
-        <h6 class="footer-title text-accent">Social</h6>
-        <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.</p>
+        <h6 class="footer-title text-accent">{i18n.FOOTER.TITLE1}</h6>
+        <p>{i18n.FOOTER.TEXT1}</p>
         <div class="flex justify-center gap-4 mt-4 text-accent">
         <!-- Instagram -->
         <a href="https://instagram.com" class="text-accent text-2xl hover:text-opacity-80">
@@ -32,20 +34,19 @@
 </div>
 
 <div class="flex flex-col text-center mx-auto">
-  <h6 class="footer-title text-neutral ">Services</h6>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Branding</a>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Design</a>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Marketing</a>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Advertisement</a>
+  <h6 class="footer-title text-neutral ">{i18n.FOOTER.TITLE2}</h6>
+  {i18n.FOOTER.LINKS2.map((link) => (
+    <a class="link link-hover text-secondary hover:text-opacity-80">{link}</a>
+  ))}
 </div>
 
-<div class="flex flex-col text-center mx-auto ">
-  <h6 class="footer-title text-accent">Company</h6>
-  <a class="link link-hover text-secondary hover:text-opacity-80">About us</a>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Contact</a>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Jobs</a>
-  <a class="link link-hover text-secondary hover:text-opacity-80">Press kit</a>
+<div class="flex flex-col text-center mx-auto">
+  <h6 class="footer-title text-accent">{i18n.FOOTER.TITLE3}</h6>
+  {i18n.FOOTER.LINKS3.map((service) => (
+    <a  class="link link-hover text-secondary hover:text-opacity-80">{service}</a>
+  ))}
 </div>
+
 
 <div class="flex items-center justify-center">
     <img src="/images/Frame.svg" alt="Frame Description" class="image-with-shadow rounded-lg"/>

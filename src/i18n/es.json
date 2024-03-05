@@ -1,54 +1,66 @@
 {
-  "SEO_TITLE": "Gentlemen's | Barbería",
-  "SEO_DESCRIPTION": "Gentlemen's, donde la tradición se encuentra con el estilo moderno. Experimenta la experiencia de barbería definitiva en el corazón de Alemania.",
+  "SEO_TITLE": "Gentlemen's | Barbería de Prestigio",
+  "SEO_DESCRIPTION": "Descubre Gentlemen's, donde la tradición y el estilo moderno se unen. Vive una experiencia de barbería única en la ciudad.",
   "NAVBAR": {
     "HOME": "Inicio",
     "SERVICES": "Servicios",
     "CONTACT": "Contacto",
-    "BOOK_SERVICE": "Reservar Ahora"
+    "BOOK_SERVICE": "Reservar ahora"
   },
   "HERO": {
     "TITLE": "Bienvenido a Gentlemen's",
-    "TEXT": "Experimenta la experiencia de barbería definitiva en el corazón de Alemania.",
-    "CTA_BUTTON_TEXT": "Saber Más"
+    "TEXT": "Vive una experiencia de barbería premium en la ciudad.",
+    "CTA_BUTTON_TEXT": "Descubre más"
   },
   "CUSTOMERS": {
     "TITLE": "Nuestros Clientes",
-    "TEXT": "Historias de transformación.",
-    "EXPERIENCE": "Años de Experiencia",
-    "SATISFACTION": "Satisfacción del Cliente"
+    "TEXT": "Historias de satisfacción y estilo.",
+    "EXPERIENCE": "Años de experiencia",
+    "SATISFACTION": "Satisfacción garantizada"
   },
   "SERVICES": {
-        "TITLE1": "Cortes Clásicos",
-        "TEXT1": "Servicios de primera clase para el caballero moderno.",
-        "CTA_BUTTON_TEXT": "29.00 $",
-   
-        "TITLE2": "Nuestros Servicios",
-        "TEXT2": "Servicios de primera clase para el caballero moderno.",
-        "LIST": ["Cortes de cabello", "Afeitado Clásico", "Cuidado de Barba", "Tratamientos Capilares", "Masajes", "Productos Exclusivos"]
-
+    "TITLE1": "Cortes Clásicos",
+    "TEXT1": "Servicios de alta calidad para el caballero moderno.",
+    "CTA_BUTTON_TEXT": "29.00 $",
+    "TITLE2": "Nuestros Servicios",
+    "TEXT2": "Calidad y atención en cada corte y afeitada.",
+    "LIST": ["Cortes de cabello", "Afeitadas clásicas", "Cuidado de barba", "Tratamientos capilares", "Masajes relajantes", "Productos exclusivos"]
   },
   "EXPERIENCE": {
-    "TITLE": "Classic Cuts",
-    "TEXT": "First-class services for the modern gentleman.",
-    "CTA_BUTTON_TEXT": "More Info"
-    },
-  "ABOUT": {
-    "TITLE": "Sobre Nosotros",
-    "TEXT": "Profesionales apasionados por tu estilo.",
+    "TITLE": "Cortes Clásicos",
+    "TEXT": "Servicios de primera clase para el caballero contemporáneo.",
+    "CTA_BUTTON_TEXT": "Más información"
+  },
+  "TEAM": {
+    "TITLE": "Conoce al Equipo",
+    "TEXT": "Profesionales dedicados a tu estilo y confort.",
     "CARDS": [
-      { "NAME": "Hans", "DESCRIPTION": "Barbero Maestro" },
-      { "NAME": "Lukas", "DESCRIPTION": "Especialista en Barbas" },
-      { "NAME": "Max", "DESCRIPTION": "Estilista" },
-      { "NAME": "Felix", "DESCRIPTION": "Aprendiz" }
+      { "NAME": "Hans", "DESCRIPTION": "Barbero Maestro", "IMAGE_URL": "https://images.pexels.com/photos/331989/pexels-photo-331989.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Lukas", "DESCRIPTION": "Especialista en Barbas", "IMAGE_URL": "https://images.pexels.com/photos/3998430/pexels-photo-3998430.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Max", "DESCRIPTION": "Estilista", "IMAGE_URL": "https://images.pexels.com/photos/1836983/pexels-photo-1836983.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Felix", "DESCRIPTION": "Aprendiz Avanzado", "IMAGE_URL": "https://images.pexels.com/photos/2035227/pexels-photo-2035227.jpeg?auto=compress&cs=tinysrgb&w=400" }
     ]
   },
+  "REVIEWS": {
+    "TITLE": "Opiniones de Clientes",
+    "SUBTITLE": "Testimonios reales",
+    "CTA_BUTTON_TEXT": "Más información",
+    "CARDS": [
+      { "NAME": "Hans", "DESCRIPTION": "Cliente Satisfecho", "IMAGE_URL": "https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "La atención y los detalles en cada servicio hacen la diferencia. Siempre salgo satisfecho." },
+      { "NAME": "Lukas", "DESCRIPTION": "Habitual de Gentlemen's", "IMAGE_URL": "https://images.pexels.com/photos/7116213/pexels-photo-7116213.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "Los mejores en lo que hacen, no cambio Gentlemen's por nada. Excelente calidad y servicio." }
+    ]
+  },
+  "VIDEO": {
+    "TITLE": "Descubre Gentlemen's",
+    "TEXT": "Una mirada dentro de nuestra tradición y calidad.",
+    "CTA_BUTTON_TEXT": "Reserva"
+  },
   "FOOTER": {
-        "TITLE1": "Sobre Gentlemen's",
-        "TEXT1": "Gentlemen's, donde la tradición se encuentra con el estilo moderno.",
-        "TITLE2": "Enlaces Rápidos",
-        "LINKS2": ["INICIO", "SERVICIOS", "RESERVA", "CONTACTO"],
-        "TITLE3": "Servicios",
-        "LINKS3": ["Cortes", "Cuidado de Barba", "Afeitados", "Tratamientos"]
+    "TITLE1": "Sobre Gentlemen's",
+    "TEXT1": "Gentlemen's, combinando tradición y estilo moderno.",
+    "TITLE2": "Enlaces Rápidos",
+    "LINKS2": ["INICIO", "SERVICIOS", "RESERVA", "CONTACTO"],
+    "TITLE3": "Servicios",
+    "LINKS3": ["CORTES", "CUIDADO DE BARBA", "AFEITADAS", "TRATAMIENTOS"]
   }
 }

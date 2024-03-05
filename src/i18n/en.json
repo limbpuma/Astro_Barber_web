@@ -1,6 +1,6 @@
 {
-  "SEO_TITLE": "Gentlemen's | Barber Shop",
-  "SEO_DESCRIPTION": "Gentlemen's, where tradition meets modern style. Experience the ultimate barber experience in the heart of Germany.",
+  "SEO_TITLE": "Gentlemen's | Prestigious Barber Shop",
+  "SEO_DESCRIPTION": "Discover Gentlemen's, where tradition and modern style unite. Experience a unique barbering experience in the city.",
   "NAVBAR": {
     "HOME": "Home",
     "SERVICES": "Services",
@@ -9,44 +9,58 @@
   },
   "HERO": {
     "TITLE": "Welcome to Gentlemen's",
-    "TEXT": "Experience the ultimate barber experience in the heart of Germany.",
-    "CTA_BUTTON_TEXT": "Learn More"
+    "TEXT": "Experience a premium barbering experience in the city.",
+    "CTA_BUTTON_TEXT": "Discover More"
   },
   "CUSTOMERS": {
     "TITLE": "Our Customers",
-    "TEXT": "Stories of transformation.",
+    "TEXT": "Stories of satisfaction and style.",
     "EXPERIENCE": "Years of Experience",
-    "SATISFACTION": "Customer Satisfaction"
+    "SATISFACTION": "Guaranteed Satisfaction"
   },
   "SERVICES": {
-        "TITLE1": "Classic Cuts",
-        "TEXT1": "First-class services for the modern gentleman.",
-        "CTA_BUTTON_TEXT": "More Info",
-        "TITLE2": "29.00 $",
-        "TEXT2": "First-class services for the modern gentleman.",
-        "LIST": ["Haircuts", "Classic Shave", "Beard Care", "Hair Treatments", "Massages", "Exclusive Products"]
+    "TITLE1": "Classic Cuts",
+    "TEXT1": "High-quality services for the modern gentleman.",
+    "CTA_BUTTON_TEXT": "$29.00",
+    "TITLE2": "Our Services",
+    "TEXT2": "Quality and attention in every cut and shave.",
+    "LIST": ["Haircuts", "Classic Shaves", "Beard Care", "Hair Treatments", "Relaxing Massages", "Exclusive Products"]
   },
   "EXPERIENCE": {
     "TITLE": "Classic Cuts",
-    "TEXT": "First-class services for the modern gentleman.",
-    "CTA_BUTTON_TEXT": "More Info"
-    },
-  "ABOUT": {
-    "TITLE": "About Us",
-    "TEXT": "Professionals passionate about your style.",
+    "TEXT": "First-class services for the contemporary gentleman.",
+    "CTA_BUTTON_TEXT": "More Information"
+  },
+  "TEAM": {
+    "TITLE": "Meet the Team",
+    "TEXT": "Professionals dedicated to your style and comfort.",
     "CARDS": [
-      { "NAME": "Hans", "DESCRIPTION": "Master Barber" },
-      { "NAME": "Lukas", "DESCRIPTION": "Beard Specialist" },
-      { "NAME": "Max", "DESCRIPTION": "Stylist" },
-      { "NAME": "Felix", "DESCRIPTION": "Apprentice" }
+      { "NAME": "Hans", "DESCRIPTION": "Master Barber", "IMAGE_URL": "https://images.pexels.com/photos/331989/pexels-photo-331989.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Lukas", "DESCRIPTION": "Beard Specialist", "IMAGE_URL": "https://images.pexels.com/photos/3998430/pexels-photo-3998430.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Max", "DESCRIPTION": "Stylist", "IMAGE_URL": "https://images.pexels.com/photos/1836983/pexels-photo-1836983.jpeg?auto=compress&cs=tinysrgb&w=400" },
+      { "NAME": "Felix", "DESCRIPTION": "Advanced Apprentice", "IMAGE_URL": "https://images.pexels.com/photos/2035227/pexels-photo-2035227.jpeg?auto=compress&cs=tinysrgb&w=400" }
     ]
   },
+  "REVIEWS": {
+    "TITLE": "Customer Reviews",
+    "SUBTITLE": "Real Testimonials",
+    "CTA_BUTTON_TEXT": "More Information",
+    "CARDS": [
+      { "NAME": "Hans", "DESCRIPTION": "Satisfied Customer", "IMAGE_URL": "https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "The attention to detail in each service makes the difference. I always leave satisfied." },
+      { "NAME": "Lukas", "DESCRIPTION": "Gentlemen's Regular", "IMAGE_URL": "https://images.pexels.com/photos/7116213/pexels-photo-7116213.jpeg?auto=compress&cs=tinysrgb&w=400", "TEXT": "The best at what they do, I wouldn't change Gentlemen's for anything. Excellent quality and service." }
+    ]
+  },
+  "VIDEO": {
+    "TITLE": "Discover Gentlemen's",
+    "TEXT": "A look inside our tradition and quality.",
+    "CTA_BUTTON_TEXT": "Booking"
+  },
   "FOOTER": {
-        "TITLE1": "About Gentlemen's",
-        "TEXT1": "Gentlemen's, where tradition meets modern style.",
-        "TITLE2": "Quick Links",
-        "LINKS2": ["HOME", "SERVICES", "BOOKING", "CONTACT"],
-        "TITLE3": "Services",
-        "LINKS3": ["Haircuts", "Beard Care", "Shaves", "Treatments"]
+    "TITLE1": "About Gentlemen's",
+    "TEXT1": "Gentlemen's, combining tradition and modern style.",
+    "TITLE2": "Quick Links",
+    "LINKS2": ["HOME", "SERVICES", "BOOKING", "CONTACT"],
+    "TITLE3": "Services",
+    "LINKS3": ["CUTS", "BEARD CARE", "SHAVES", "TREATMENTS"]
   }
 }

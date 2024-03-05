@@ -1,0 +1,53 @@
+---
+import Button from './Button.astro'
+import { getI18N } from '../i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
+const reviews = i18n.REVIEWS.CARDS;
+---
+
+<div class="w-full h-full flex items-center justify-center bg-neutral py-8">
+    <div class=" w-full max-w-4xl px-4sm:px-6 mx-4 lg:px-4">
+        <div class="flex flex-col-2">
+            <div class="text-center w-1/2">
+                <h1 class="text-3xl font-bold text-secondary">{i18n.REVIEWS.TITLE}</h1>
+                <p class="mt-3 max-w-2xl mx-auto text-xl text-secondary sm:mt-4">
+                    {i18n.REVIEWS.SUBTITLE}
+                </p>
+            </div>
+
+            <div class="text-center mt-4 w-1/2">
+                <Button text={i18n.REVIEWS.CTA_BUTTON_TEXT}/>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4">
+                {/* Iteración sobre los datos de reseñas */}
+                {reviews.map((review, index) => (
+                  <div class="card w-96 shadow-xl bg-primary mx-auto">
+                      <figure class="mt-4 flex justify-center items-center">
+                          <img class="rounded-lg w-1/2 h-40 ml-4" src={review.IMAGE_URL} alt={review.NAME}/>
+                          <div class="text-center flex flex-col items-center w-1/2">
+                            <div class="rating color-secondary ">
+                                <div class="rating mb-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-accent" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-accent" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-accent" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-accent" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-accent" checked />
+                                  </div>
+                            </div>                              <h2 class="card-title text-white">{review.NAME}</h2>
+                              <p class="text-secondary">{review.DESCRIPTION}</p>
+                          </div>
+                      </figure>
+                      <div class="card-body">
+                          <p class="text-secondary">{review.TEXT}</p>
+                      </div>
+                  </div>
+                ))}
+            </div>
+        </div>
+        
+    </div>
+</div>

@@ -1,6 +1,9 @@
 ---
 // Importa el componente Button si lo necesitas
 import Button from '../components/Button.astro';
+import { getI18N } from '../i18n';
+const { currentLocale} = Astro
+const i18n = getI18N({currentLocale});
 ---
 
 <div class="relative bg-accent h-screen w-full overflow-hidden flex items-center justify-center">
@@ -16,12 +19,12 @@ import Button from '../components/Button.astro';
   <!-- Contenido centrado sobre el video y el overlay -->
   <div class="z-20 flex flex-col items-center justify-center space-y-4 p-4 text-center">
     <!-- Título -->
-    <h2 class="text-xl font-bold text-white">Título del Video</h2>
+    <h2 class="text-xl font-bold text-white">{i18n.VIDEO.TITLE}</h2>
 
     <!-- Texto -->
-    <p class="text-white max-w-md">Este es un breve texto descriptivo para acompañar al video incrustado en el fondo del componente.</p>
+    <p class="text-white max-w-md">{i18n.VIDEO.TEXT}</p>
 
     <!-- Botón -->
-    <Button text="Descubre más" />
+    <Button text={i18n.VIDEO.CTA_BUTTON_TEXT} />
   </div>
 </div>
