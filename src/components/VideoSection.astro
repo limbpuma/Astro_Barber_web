@@ -1,0 +1,27 @@
+---
+// Importa el componente Button si lo necesitas
+import Button from '../components/Button.astro';
+---
+
+<div class="relative bg-accent h-screen w-full overflow-hidden flex items-center justify-center">
+  <!-- Video de fondo -->
+  <video class="absolute z-0 min-w-full min-h-full object-cover" autoplay loop muted playsinline>
+    <source src="./video/SpotBarber.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+
+  <!-- Overlay: Capa de color sobre el video -->
+  <div class="absolute z-10 w-full h-full bg-black opacity-80"></div>
+
+  <!-- Contenido centrado sobre el video y el overlay -->
+  <div class="z-20 flex flex-col items-center justify-center space-y-4 p-4 text-center">
+    <!-- Título -->
+    <h2 class="text-xl font-bold text-white">Título del Video</h2>
+
+    <!-- Texto -->
+    <p class="text-white max-w-md">Este es un breve texto descriptivo para acompañar al video incrustado en el fondo del componente.</p>
+
+    <!-- Botón -->
+    <Button text="Descubre más" />
+  </div>
+</div>
